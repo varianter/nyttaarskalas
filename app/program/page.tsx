@@ -13,8 +13,8 @@ export default function Program() {
       <h3 className="mb-2 text-3xl font-semibold  pt-20 pb-10">
         Kveldens program
       </h3>
-      {program.map((x) => (
-        <div className="text-xl py-2">
+      {program.map((x, index) => (
+        <div key={index} className="text-xl py-2">
           {x.clock} - {x.activety}
         </div>
       ))}
