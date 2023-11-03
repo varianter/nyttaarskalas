@@ -12,6 +12,8 @@ yarn dev
 
 Deretter, åpne [http://localhost:3000](http://localhost:3000) i nettleseren for å se applikasjonen kjøre.
 
+Applikasjonen er deployert her: [ https://nyttaarskalas.vercel.app/](https://nyttaarskalas.vercel.app/)
+
 ## Les mer om Next.js
 
 Ta en kikk på følgende resurser for å lære mer om Next.js:
