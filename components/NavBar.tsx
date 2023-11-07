@@ -7,7 +7,7 @@ const links = [
 
 export default function NavBar() {
   return (
-    <div className="flex flex-row gap-5 p-4 bg-blue text-white">
+    <div className="flex flex-row gap-5 p-4 bg-blue text-white bg-dark_purple">
       {links.map((link, index) => (
         <ul key={index}>
           <Link

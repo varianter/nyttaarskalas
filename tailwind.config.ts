@@ -9,11 +9,15 @@ const config: Config = {
   theme: {
     colors: {
       black: "#121212",
-      beige: "#F5F1E9",
       white: "#ffffff",
+      beige: "#F5F1E9",
       dark_blue: "#0D283B",
       blue: "#145384",
-      orange: "#ebba34",
+      dark_purple: "#282552",
+      purple: "#35316E",
+      ligth_purple: "#B7B4DE",
+      teal: "#03DCA6",
+      ligth_teal: "#CDF8F4",
     },
     extend: {
       backgroundImage: {
