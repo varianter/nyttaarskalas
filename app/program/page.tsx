@@ -9,8 +9,8 @@ export default function Program() {
   ];
 
   return (
-    <main className="flex flex-col items-center">
-      <h3 className="mb-2 text-3xl font-semibold  pt-20 pb-10 text-white">
+    <main className="flex flex-col items-center text-white">
+      <h3 className="mb-2 text-3xl font-semibold pt-20 pb-10">
         Kveldens program
       </h3>
       {program.map((activety, index) => (
@@ -18,6 +18,7 @@ export default function Program() {
           {activety.clock} - {activety.name}
         </div>
       ))}
+
     </main>
   );
 }
