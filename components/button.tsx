@@ -6,7 +6,7 @@ const links = [
   { href: "/kontakt", name: "Kontakt" },
   
 ];
-export default function NavBar() {
+export default function button() {
   return (
     <div className="flex flex-row gap-5 p-4 bg-blue text-white bg-dark_purple">
       {links.map((link, index) => (
