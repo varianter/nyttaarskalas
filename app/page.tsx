@@ -9,7 +9,7 @@ export default function Home() {
    </div>
    <br></br>
    <div className="p-4 bg-dark_purple rounded-xl">
-   <h3 className="p-2 text-3xl">Hvem er arrangementet for?</h3>
+   <h3 className="p-2">Hvem er arrangementet for?</h3>
    <p className="p-2">Suspendisse viverra tempus eleifend. Nam suscipit nec tortor id laoreet. Praesent tincidunt cursus justo, id aliquam nulla commodo ut. Nulla gravida vestibulum nibh ut scelerisque. Sed dapibus diam non arcu faucibus varius. Nam est nisl, imperdiet vel sapien sit amet, pharetra sollicitudin eros. Proin efficitur lorem ultricies ornare ultricies.</p>
    </div>
     </main>

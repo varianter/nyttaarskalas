@@ -1,4 +1,5 @@
 
+
 export default function Info() {
   const info = [
     { name: "Åpningstale", clock: "19.00" },
@@ -15,9 +16,9 @@ export default function Info() {
       <h1 className="p-20 pb-80 mx-16">Informasjon om kvelden</h1>
 
       <div className="flex justify-center space-x-12 m-4">
-        <div className="bg-ligth_purple w-12 h-12 flex items-center justify-center rounded cursor-pointer">1</div>
-        <div className="bg-ligth_purple w-12 h-12 flex items-center justify-center rounded cursor-pointer">2</div>
-        <div className="bg-ligth_purple w-12 h-12 flex items-center justify-center rounded cursor-pointer">3</div>
+      <div className="bg-ligth_purple w-12 h-12 flex items-center justify-center rounded cursor-pointer"><a href="http://localhost:3000/info#:~:text=4-,Kveldens%20program,-19.00%20%2D%20%C3%85pningstale"></a>Kveldens Program</div>
+        <div className="bg-ligth_purple w-12 h-12 flex items-center justify-center rounded cursor-pointer"><a href="http://localhost:3000/info#:~:text=23.30%20%2D%20R%C3%A6vkrokturnering-,Hvor%20og%20n%C3%A5r%3F,-nytt%C3%A5rskalaset%20blir%20arrangert"></a>Hvor og når?</div>
+        <div className="bg-ligth_purple w-12 h-12 flex items-center justify-center rounded cursor-pointer"><a href="http://localhost:3000/info#:~:text=Informasjon%20om%20drikke%20og%20snacks%20servering"></a> Informasjon om drikke og snacks</div>
         <div className="bg-ligth_purple w-12 h-12 flex items-center justify-center rounded cursor-pointer">4</div>
     </div>
       <h3 className="mb-2 text-5xl font-semibold  pt-20 pb-10 text-white">
@@ -33,7 +34,9 @@ export default function Info() {
       adresse: Dokkparken 4, 7042 Trondheim</p>
       <p className="text-xl">Festen/dørene vil starte/åpne klokka 19.00 </p>
 
-      <h3 className="text">Informasjon om drikke og snacks servering</h3>
+      <h3>Informasjon om drikke og snacks servering</h3>
     </main>
+
+
   );
 }
