@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: "Recoleta-Regular";
   src: url(../public/fonts/recoleta-regular.woff) format("truetype");
@@ -32,6 +33,8 @@
   src: url(../public/fonts/Graphik-Bold-Web.woff2) format("truetype");
 }
 
+
+
 @layer components {
 }
 
@@ -39,19 +42,19 @@
 
   h1 {
     font-size: 3.75rem /* 60px */;
-    line-height: 1;
+    line-height: 4rem;
     font-family: "Recoleta-Regular";
   }
 
   h2 {
-    font-size: 3rem /* 60px */;
-    line-height: 1;
+    font-size: 2.75rem /* 60px */;
+    line-height: 3.25rem;
     font-family: "Recoleta-Regular";
   }
 
   h3 {
     font-size: 2.25rem /* 60px */;
-    line-height: 1;
+    line-height: 2.5rem;
     font-family: "Recoleta-Regular";
   }
   

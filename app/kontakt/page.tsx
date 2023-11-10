@@ -17,9 +17,6 @@ export default function kontakt() {
         <span className="p-2">Tweet på: <a className="underline hover:text-ligth_teal text-teal" href="https://twitter.com/variant_as" aria-label="Twitter @variant_as" rel="noopener">@variant_as</a></span>
         <span className="p-2">Bilder på: <a className="underline hover:text-ligth_teal text-teal" href="https://instagram.com/variant_as" aria-label="Instagram @variant_as" rel="noopener">@variant_as</a></span>
 
-
-   
-       
       </main>
     );
   }
