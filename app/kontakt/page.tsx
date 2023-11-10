@@ -6,7 +6,7 @@ export default function kontakt() {
   
     return (
       <main className="flex flex-col items-center mx-16 text-white">
-        <h3 className="mb-2 text-3xl font-semibold  pt-60 pb-5">
+        <h3 className="mb-2 font-semibold  pt-60 pb-5">
           Har du spørsmål?
         </h3>
         <h2 className="pb-5">Kontakt oss</h2>
