@@ -6,7 +6,7 @@ export default function kontakt() {
   
     return (
       <main className="flex flex-col items-center mx-16 text-white">
-        <h3 className="mb-2 text-3xl font-semibold  pt-60 pb-5">
+        <h3 className="mb-2 font-semibold  pt-60 pb-5">
           Har du spørsmål?
         </h3>
         <h2 className="pb-5">Kontakt oss</h2>
@@ -17,9 +17,6 @@ export default function kontakt() {
         <span className="p-2">Tweet på: <a className="underline hover:text-ligth_teal text-teal" href="https://twitter.com/variant_as" aria-label="Twitter @variant_as" rel="noopener">@variant_as</a></span>
         <span className="p-2">Bilder på: <a className="underline hover:text-ligth_teal text-teal" href="https://instagram.com/variant_as" aria-label="Instagram @variant_as" rel="noopener">@variant_as</a></span>
 
-
-   
-       
       </main>
     );
   }

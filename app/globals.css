@@ -45,7 +45,7 @@
     font-family: "Recoleta-Regular";
   }
   h2 {
-    font-size: 3rem /* 60px */;
+    font-size: 2.75rem /* 60px */;
     line-height: 3.25rem;
     font-family: "Recoleta-Regular";
   }
@@ -54,4 +54,5 @@
     line-height: 2.5rem;
     font-family: "Recoleta-Regular";
   }
+  
 }
