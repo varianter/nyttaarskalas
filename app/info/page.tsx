@@ -56,7 +56,7 @@ export default function Info() {
         Kveldens program
       </h3>
       {info.map((activety, index) => (
-        <div key={index} className="py-2">
+        <div key={index} className="py-2 text-xl">
           {activety.clock} - {activety.name}
         </div>
       ))}
