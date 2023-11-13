@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex flex-col p-24 text-white mx-16">
       <h1 className="p-2 font-semibold">Velkommen til nyttårskalas 🎆</h1>
-      <h2 className="p-4 pb-6">Årets nyttårskalas er arangert av Variant!</h2>
+      <h2 className="p-4 pb-6">Årets nyttårskalas av Variant!</h2>
     <div className="p-4 bg-dark_purple rounded-xl">
       <h3 className="p-2">Litt om oss på variant</h3>
       <p className="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis eros at eleifend. Cras efficitur quam non congue ornare. Integer efficitur ac ex dictum rhoncus. Pellentesque arcu erat, blandit a enim sed, interdum aliquam lacus. Vivamus vitae mauris nisi. Aenean vestibulum sem quis dignissim dignissim. </p>
