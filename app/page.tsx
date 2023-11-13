@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex flex-col p-24 text-white mx-16">
       <h1 className="p-2 font-semibold">Velkommen til nyttårskalas 🎆</h1>
-      <h2 className="p-4 pb-6">Årets nyttårskalas er arangert av Variant!</h2>
+      <h2 className="p-4 pb-6">Årets nyttårskalas av Variant!</h2>
     
     <div className="flex justify-end items-start">
       <img src={"./blobs/blobb10.svg"} alt={""} width={400} height={400}/>

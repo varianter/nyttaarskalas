@@ -18,6 +18,7 @@ const config: Config = {
       ligth_purple: "#B7B4DE",
       teal: "#03DCA6",
       ligth_teal: "#CDF8F4",
+      pink: "#B91456",
     },
     extend: {
       backgroundImage: {

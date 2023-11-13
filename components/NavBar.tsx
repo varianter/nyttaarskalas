@@ -4,6 +4,7 @@ const links = [
   { href: "/", name: "Hjem" },
   { href: "/info", name: "Info" },
   { href: "/kontakt", name: "Kontakt" },
+  { href: "/paamelding", name: "Påmelding" },
   
 ];
 export default function NavBar() {
