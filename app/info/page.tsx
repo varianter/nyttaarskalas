@@ -64,6 +64,8 @@ export default function Info() {
       <p className="p-2">Nyttårskalaset blir arrangert på dokkhuset, på solsiden <br></br>
       Adresse: Dokkparken 4, 7042 Trondheim</p>
       <p className="p-2">Festen/dørene vil starte/åpne klokka 19.00 </p>
+      <Image src={"./blobs/dokkhuset.svg"} alt={""} width={400} height={400}/>
+
 
       <h3 className="pb-5 pt-80">Informasjon om drikke og snacks servering</h3>
       <p>dette er informasjonen om drikke og snacks dette er informasjonen om drikke <br></br>
@@ -74,29 +76,26 @@ export default function Info() {
       Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden <br></br>
       Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden</p>
 
-      <h3 className="pt-5">Fjorårets kalas</h3>
+      <h3 className="pt-80 pb-40">Fjorårets kalas</h3>
       <p></p>
-    <div className="flex justify-around" space-x-5>
-      <Image src={"./blobs/blobb1.svg"} alt={""} width={350} height={350}/>
-     <Image src={"./blobs/blobb2.svg"} alt={""} width={300} height={300}/>
-     <Image src={"./blobs/blobb3.svg"} alt={""} width={300} height={300}/>
+    <div className="flex justify-around space-x-10 columns: 2;">
+      <Image src={"./blobs/blobb1.svg"} alt={""} width={400} height={400}/>
+     <Image src={"./blobs/blobb2.svg"} alt={""} width={400} height={400}/>
     </div>
-    <div className="flex justify-around space-x-5">
-     <Image src={"./blobs/blobb4.svg"} alt={""} width={300} height={300}/>
-     <Image src={"./blobs/blobb5.svg"} alt={""} width={300} height={300}/>
-     <Image src={"./blobs/blobb6.svg"} alt={""} width={300} height={300}/>
-     <Image src={"./blobs/blobb13.svg"} alt={""} width={300} height={300}/>
+    <div className="flex justify-around space-x-10">
+     <Image src={"./blobs/blobb4.svg"} alt={""} width={350} height={350}/>
+     <Image src={"./blobs/blobb5.svg"} alt={""} width={350} height={350}/>
+     <Image src={"./blobs/blobb13.svg"} alt={""} width={350} height={350}/>
 
     </div>
-    <div className="flex justify-around space-x-5">
-     <Image src={"./blobs/blobb7.svg"} alt={""} width={400} height={400}/>
-     <Image src={"./blobs/blobb8.svg"} alt={""} width={400} height={400}/>
+    <div className="flex justify-around space-x-10">
+     <Image src={"./blobs/blobb7.svg"} alt={""} width={350} height={350}/>
      <Image src={"./blobs/blobb9.svg"} alt={""} width={400} height={400}/>
     </div>
-    <div className="flex justify-around space-x-5">
-     <Image src={"./blobs/blobb10.svg"} alt={""} width={400} height={400}/>
-     <Image src={"./blobs/blobb11.svg"} alt={""} width={400} height={400}/>
+    <div className="flex justify-around space-x-10">
      <Image src={"./blobs/blobb12.svg"} alt={""} width={400} height={400}/>
+     <Image src={"./blobs/blobb6.svg"} alt={""} width={350} height={350}/>
+     <Image src={"./blobs/blobb3.svg"} alt={""} width={400} height={400}/>
      
     </div>
  
