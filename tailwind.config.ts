@@ -13,6 +13,8 @@ const config: Config = {
       beige: "#F5F1E9",
       dark_blue: "#0D283B",
       blue: "#145384",
+      darkest_purple:"#0D0C1B",
+      darker_purple:"#1A1837",
       dark_purple: "#282552",
       purple: "#35316E",
       ligth_purple: "#B7B4DE",
