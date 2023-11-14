@@ -3,8 +3,9 @@ import Link from "next/link";
 const links = [
   { href: "/", name: "Hjem" },
   { href: "/info", name: "Info" },
-  { href: "/kontakt", name: "Kontakt" },
   { href: "/paamelding", name: "Påmelding" },
+  { href: "/kontakt", name: "Kontakt" },
+
   
 ];
 export default function NavBar() {
