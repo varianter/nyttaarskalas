@@ -76,7 +76,7 @@ export default function Info() {
       Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden <br></br>
       Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden</p>
 
-      <h3 className="pt-80 pb-40">Fjorårets kalas</h3>
+      <h3 className="pt-80 pb-20">Fjorårets kalas</h3>
       <p></p>
     <div className="flex justify-around space-x-10 columns: 2;">
       <Image src={"./blobs/blobb1.svg"} alt={""} width={400} height={400}/>
