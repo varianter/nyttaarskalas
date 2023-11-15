@@ -68,6 +68,9 @@ export default function Info() {
        <div key={index} className="py-2 text-xl">
         {activety.clock} - {activety.name}
         </div>
+
+
+
       ))}
 
       <h3 className="mb-2 font-semibold  pt-60 pb-10">Hvor og når?</h3>
@@ -80,10 +83,12 @@ export default function Info() {
       <p>dette er informasjonen om drikke og snacks dette er informasjonen om drikke <br></br>
       dette er informasjonen om drikke og snacks dette er informasjonen om drikke og snacks</p>
 
+
       <h3 className="pt-80">Kleskode</h3>
       <p>Dette er kleskoden Dette er kleskoden Dette er kleskoden <br></br>
       Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden <br></br>
       Dette er kleskoden Dette er kleskoden Dette er kleskoden Dette er kleskoden</p>
+
 
       <h3 className="pt-80 pb-20">Fjorårets kalas</h3>
       <p></p>
