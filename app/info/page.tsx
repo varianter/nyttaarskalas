@@ -18,7 +18,9 @@ export default function Info() {
 
      <div className="p-4 bg-dark_purple rounded-xl">
        <h3 className="p-1">Har du spørsmål? <br></br> Kansje du får svar i siden under</h3>
-       <p className="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat convallis eros at eleifend. Cras efficitur quam non congue ornare. Integer efficitur ac ex dictum rhoncus. Pellentesque arcu erat, blandit a enim sed, interdum aliquam lacus. Vivamus vitae mauris nisi. Aenean vestibulum sem quis dignissim dignissim. </p>
+       <p className="p-2">Det vil bli et inspirerende miljø fylt med likesinnede enkeltpersoner fra Trondheims pulserende IT-samfunn. 
+       Det vil bli mulighet for å mingle med bransjefolk, utviklere, og designere i et avslappet og festlig miljø, med kreative diskusjoner, 
+       teknologiske oppdagelser og nye vennskap.</p>
      </div>
 
      <section className="flex mb-12 mt-8 grid-cols-1 gap-4 xs:grid-cols-2 sm:grid-cols-3 smmd:grid-cols-5">
