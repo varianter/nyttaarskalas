@@ -21,12 +21,12 @@ var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
     <main className="flex flex-col p-24 text-white relative mx-2 sm:mx-16 ">
         <img className="absolute -right-16 top-5 -z-50" src={"./color_blobs/ligth_purple.svg"} alt={""} width={400} height={400}/>
         <img className="absolute right-16 -top-4 -z-50" src={"./blobs/blobb10.svg"} alt={""} width={350} height={350}/>
-        <img className="absolute -right-14 top-18 -z-50" src={"./blobs/blobb8.svg"} alt={""} width={400} height={400}/>
+        <img className="absolute -rigth-14 top-8 -z-50" src={"./blobs/blobb8.svg"} alt={""} width={400} height={400}/>
         <div className="flex flex-col">
           <h1 className="p-2 font-semibold">Velkommen til nyttårskalas 🎆</h1>
           <h2 className="p-4 pb-6">Årets nyttårskalas av Variant!</h2>
-        </div>
 
+</div>
 <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
     <span className="countdown font-mono text-5xl">
