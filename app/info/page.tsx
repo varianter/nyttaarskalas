@@ -25,7 +25,7 @@ export default function Info() {
 
         <a className="" href="https://nyttaarskalas.vercel.app/info#:~:text=Fjor%C3%A5rets%20kalas-,Kveldens%20program,-19.00%20%2D%20%C3%85pningstale">
         <article className="mx-1 min-h-[5rem] min-w-[8rem] rounded-xl bg-dark_purple text-white hover:bg-darker_purple p-3 ">
-        <p className="text-left font-serif">Program</p>
+        <p className="text-left font-serif flex justify-center">Program</p>
        <div className="flex justify-center">
          <Image alt="" className="mt-3 h-[1.75rem]" src="/ikoner/microphone-stage.svg" width={35} height={35}/>  
        </div></article></a>
@@ -40,7 +40,7 @@ export default function Info() {
 
         <a className="" href="https://nyttaarskalas.vercel.app/info#:~:text=Informasjon%20om%20drikke%20og%20snacks%20servering">
        <article className="mx-1 min-h-[5rem] min-w-[8rem] rounded-xl bg-dark_purple text-white hover:bg-darker_purple p-3 ">
-        <p className="text-left font-serif">Servering</p>
+        <p className="text-left font-serif flex justify-center">Servering</p>
        <div className="flex justify-center">
          <Image alt="" className="mt-3 h-[1.75rem]" src="/icon/martini.svg" width={35} height={35}/>
        </div>
@@ -48,7 +48,7 @@ export default function Info() {
 
         <a className="" href="https://nyttaarskalas.vercel.app/info#:~:text=drikke%20og%20snacks-,Kleskode,-Dette%20er%20kleskoden">
        <article className="mx-1 min-h-[5rem] min-w-[8rem] rounded-xl bg-dark_purple text-white hover:bg-darker_purple p-3 ">
-        <p className="text-left font-serif">Kleskode</p>
+        <p className="text-left font-serif flex justify-center">Kleskode</p>
        <div className="flex justify-center">
          <Image alt="" className="mt-3 h-[1.75rem]" src="/icon/dress.svg" width={35} height={35}/>
        </div>
@@ -89,24 +89,23 @@ export default function Info() {
 
 
       <h3 className="pt-80 pb-20">Fjorårets kalas</h3>
-      
-    <div className="flex justify-around space-x-10 md:col-span-1">
-      <Image src={"./blobs/blobb1.svg"} alt={""} width={400} height={400}/>
-     <Image src={"./blobs/blobb2.svg"} alt={""} width={400} height={400}/>
+    <div className="flex justify-around space-x-10 columns: 2;">
+      <Image src={"./blobs/blobb1.svg"} alt={""} width={440} height={440}/>
+     <Image src={"./blobs/blobb2.svg"} alt={""} width={450} height={450}/>
     </div>
     <div className="flex justify-around space-x-10">
      <Image src={"./blobs/blobb4.svg"} alt={""} width={350} height={350}/>
      <Image src={"./blobs/blobb5.svg"} alt={""} width={350} height={350}/>
-     <Image src={"./blobs/blobb13.svg"} alt={""} width={350} height={350}/>
+     <Image src={"./blobs/blobb13.svg"} alt={""} width={400} height={400}/>
 
     </div>
     <div className="flex justify-around space-x-10">
-     <Image src={"./blobs/blobb7.svg"} alt={""} width={350} height={350}/>
-     <Image src={"./blobs/blobb9.svg"} alt={""} width={400} height={400}/>
+     <Image src={"./blobs/blobb7.svg"} alt={""} width={400} height={400}/>
+     <Image src={"./blobs/blobb9.svg"} alt={""} width={420} height={420}/>
     </div>
     <div className="flex justify-around space-x-10">
      <Image src={"./blobs/blobb12.svg"} alt={""} width={400} height={400}/>
-     <Image src={"./blobs/blobb6.svg"} alt={""} width={350} height={350}/>
+     <Image src={"./blobs/blobb6.svg"} alt={""} width={380} height={380}/>
      <Image src={"./blobs/blobb3.svg"} alt={""} width={400} height={400}/>
     </div>
 
