@@ -69,8 +69,6 @@ export default function Info() {
         {activety.clock} - {activety.name}
         </div>
 
-
-
       ))}
 
       <h3 className="mb-2 font-semibold  pt-60 pb-10">Hvor og når?</h3>
@@ -91,8 +89,8 @@ export default function Info() {
 
 
       <h3 className="pt-80 pb-20">Fjorårets kalas</h3>
-      <p></p>
-    <div className="flex justify-around space-x-10 columns: 2;">
+      
+    <div className="flex justify-around space-x-10 md:col-span-1">
       <Image src={"./blobs/blobb1.svg"} alt={""} width={400} height={400}/>
      <Image src={"./blobs/blobb2.svg"} alt={""} width={400} height={400}/>
     </div>
@@ -112,14 +110,13 @@ export default function Info() {
      <Image src={"./blobs/blobb3.svg"} alt={""} width={400} height={400}/>
     </div>
 
-    <div className="mb-12 mt-8 p-4 bg-dark_purple rounded-xl grid grid-cols-1 gap-4 xxs:grid-cols-2 xs:grid-cols-3 smmd:grid-cols-5 hover:bg-darker_purple">
+    <div className="mb-12 mt-8 p-4 bg-dark_purple rounded-xl hover:bg-darker_purple">
       <a className="" href="https://nyttaarskalas.vercel.app/info">
       <p>Til toppen</p>
       </a>
     </div>
  
     </main>
-
 
   );
 }
