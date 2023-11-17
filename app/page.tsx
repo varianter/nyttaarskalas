@@ -1,6 +1,13 @@
-export default function Home() {
+"use client"
+import { useEffect, useState } from "react";
+import "./globals.css";
 
-  // Set the date we're counting down to
+export default function Home() {
+  const [timeUntilStartskudd, setTimeUntilStartskudd] = useState<ClockObject>(
+    calculateTime(),
+  );
+
+/*   // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
 
 // Update the count down every 1 second
@@ -15,7 +22,45 @@ var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
   const days = Math.floor(distance / (1000 * 60 * 60 * 24));
   const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000); */
+
+  
+  
+    type ClockObject = {
+      milliseconds: number;
+      days: number;
+      hours: number;
+      minutes: number;
+      seconds: number;
+    };
+
+    function calculateTime():ClockObject {
+      const startskuddDate = new Date('2024-01-05T19:00:00.00+02:00');
+      const timeNow = new Date();
+      const diffMs = startskuddDate.getTime() - timeNow.getTime();
+      const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+      const diffHrs = Math.floor(
+        (diffMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+      );
+      const diffMins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
+      const diffSecs = Math.floor((diffMs % (1000 * 60)) / 1000);
+      return {
+        milliseconds: diffMs,
+        days: diffDays,
+        hours: diffHrs,
+        minutes: diffMins,
+        seconds: diffSecs,
+      };
+    }
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setTimeUntilStartskudd(calculateTime());
+      }, 1000);
+      return () => clearInterval(interval);
+    }, []);
+  
+
 
   return (
     <main className="flex flex-col p-24 text-white relative mx-2 sm:mx-16 ">
@@ -30,25 +75,25 @@ var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
 <div className="grid grid-flow-col gap-5 text-center auto-cols-max p-2">
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
     <span className="countdown font-mono text-5xl">
-      {days}
+      {timeUntilStartskudd.days}
     </span>
     dager
   </div> 
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
     <span className="countdown font-mono text-5xl">
-      {hours}
+      {timeUntilStartskudd.hours}
     </span>
     timer
   </div> 
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
     <span className="countdown font-mono text-5xl">
-      {minutes}
+      {timeUntilStartskudd.minutes}
     </span>
     min
   </div> 
   <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
     <span className="countdown font-mono text-5xl">
-      {seconds}
+      {timeUntilStartskudd.seconds}
     </span>
     sek
   </div>
